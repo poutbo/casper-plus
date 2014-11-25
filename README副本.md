@@ -1,35 +1,10 @@
-casper-plus
-===========
-
-Ghost-Theme
-
-对Ghost的默认模板进行了一些修改.
-
-1. 修改样式外观，头部改为黑色
-2. 调整Goole字体服务器可配置
-3. 增加disqus引用
-
-配置方式:
-
-修改config.js 在每个环境下面(通常只配置production就可以)下增加 disqus 和 fontserber参数.
-
-```
-production: {
-    url: '...',
-    disqus: 'likejs-com',
-    fontserber: 'useso',
-    ...
-}
-```
-
-
-#### Casper
+# Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
 
-#### Copyright & License
+## Copyright & License
 
 Copyright (c) 2013-2014 Ghost Foundation - Released under the MIT License.
 
