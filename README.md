@@ -10,18 +10,10 @@ Ghost-Theme
 3. 增加disqus引用
 
 配置方式:
+修改`post.hbs`和`partials/loop.hbs`将`likejs-com`更换为你的disqus配置
+如想更换Google字体服务器 请修改`defult.hbs`将`useso`修改为你需要的.
 
-修改config.js 在每个环境下面(通常只配置production就可以)下增加 disqus 和 fontserber参数.
-
-```
-production: {
-    url: '...',
-    disqus: 'likejs-com',
-    fontserber: 'useso',
-    ...
-}
-```
-
+附原主题说明:
 
 #### Casper
 
